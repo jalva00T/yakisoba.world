@@ -1,0 +1,97 @@
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    display: none;
+} 
+
+/* COMMON */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    /* color: #00AEAB; */
+    color: #ffffff;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* CARDS */
+
+.card-container {
+    width: 90vw;
+    display: flex;
+
+}
+
+.card {
+    height: 40vh;
+    flex: 0.5;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: flex .3s ease-in-out;
+    overflow: auto;
+}
+
+.card.active {
+    flex: 2;
+}
+
+.card h1 {
+    display: none;
+    transition-delay: .3s;
+    transition: flex .3s ease-in-out;
+    color: #000000;
+    margin-top: 300px;
+    margin-left: 20px;
+} 
+
+.card.active h1 {
+    display: block;
+}
+
+video {
+    cursor: pointer;
+    border-radius: 50px;
+    transition: flex .3s ease-in;
+    flex: 0.5;
+    min-width: 10px;
+}
+
+/* SITE NAME AND MESSAGE */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.world {
+    color: #ffffff;
+}
+
+.soon {
+    font-size: 40px;
+}
