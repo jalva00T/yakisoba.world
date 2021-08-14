@@ -30,6 +30,7 @@ body {
 .card-container {
     width: 90vw;
     display: flex;
+    margin-bottom: 30px;
 
 }
 
@@ -79,6 +80,7 @@ video {
     align-items: center;
     justify-content: center;
     height: 40vh;
+    /* background-color: bisque; */
 }
 
 .item {
@@ -94,4 +96,17 @@ video {
 
 .soon {
     font-size: 40px;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons {
+    position: relative;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.social-icons div {
+    display: inline-block;
+    margin: 40px;
 }
