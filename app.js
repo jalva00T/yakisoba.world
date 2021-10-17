@@ -1,7 +1,7 @@
 let cards = document.querySelectorAll( '.card' );
 
 cards.forEach(card => {
-    card.addEventListener('click', () => {
+    card.addEventListener('mouseover', () => {
         deactivate();
         card.classList.add('active')
     })

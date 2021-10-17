@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+html {
+    margin: 0;
+    padding-top: 0;
+}
+
 body {
     background: #000000;
     /* color: #00AEAB; */
@@ -27,11 +32,19 @@ body {
 
 /* CARDS */
 
+.card-container-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-container {
     width: 90vw;
+    /* width:max-content; */
     display: flex;
     margin-bottom: 30px;
-
+    min-width: 315px;
+    overflow: none;
 }
 
 .card {
@@ -79,7 +92,7 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height: 25vh;
     /* background-color: bisque; */
 }
 
@@ -108,5 +121,44 @@ video {
 
 .social-icons div {
     display: inline-block;
-    margin: 40px;
+    margin: 10px;
+}
+.insta {
+    height: 32px;
+    width: 32px;
+}
+
+.youtube {
+    height: 32px;
+    width: 32px;
+}
+
+.apple_music {
+    height: 32px;
+    width: 32px;
+}
+
+.spotify {
+    height: 32px;
+    width: 32px;
+}
+
+.soundcloud {
+    height: 32px;
+    width: 32px;
+}
+
+.fbook {
+    height: 32px;
+    width: 32px;
+}
+
+.twitter {
+    height: 32px;
+    width: 32px;
+}
+
+.linkedin {
+    height: 32px;
+    width: 32px;
 }
